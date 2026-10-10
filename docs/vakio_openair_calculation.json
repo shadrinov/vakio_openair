@@ -1,0 +1,248 @@
+{
+  "status": "preliminary; not a validated thermal-bridge or condensation simulation",
+  "conditions": {
+    "indoor_c": 25.0,
+    "outdoor_c": -20.0,
+    "indoor_rh_percent": 50
+  },
+  "wall": {
+    "total_mm": 450.0,
+    "block_mm_assumed": 330,
+    "brick_mm_assumed": 120,
+    "air_gap_mm_confirmed": 0,
+    "internal_finish_confirmed": "plaster; thickness unknown",
+    "plaster_thickness_mm_estimated": [
+      5,
+      10
+    ],
+    "block_wall_load_bearing_confirmed": false,
+    "block_lambda_assumed_w_mk": 0.15,
+    "brick_lambda_assumed_w_mk": 0.7,
+    "undisturbed_wall_room_surface_c": 22.69814502529511
+  },
+  "humidity_thresholds": [
+    {
+      "indoor_rh_percent": 40,
+      "dew_point_c": 10.470504673554476,
+      "surface_temperature_at_80_percent_rh_c": 13.860667954410381,
+      "minimum_temperature_factor_for_80_percent": 0.7524592878757862
+    },
+    {
+      "indoor_rh_percent": 50,
+      "dew_point_c": 13.860667954410381,
+      "surface_temperature_at_80_percent_rh_c": 17.343499578364177,
+      "minimum_temperature_factor_for_80_percent": 0.8298555461858705
+    },
+    {
+      "indoor_rh_percent": 60,
+      "dew_point_c": 16.699251307397063,
+      "surface_temperature_at_80_percent_rh_c": 20.26064846258236,
+      "minimum_temperature_factor_for_80_percent": 0.8946810769462746
+    },
+    {
+      "indoor_rh_percent": 70,
+      "dew_point_c": 19.149045122410673,
+      "surface_temperature_at_80_percent_rh_c": 22.778961266658868,
+      "minimum_temperature_factor_for_80_percent": 0.9506435837035304
+    }
+  ],
+  "candidate_dimensions_mm": {
+    "pipe_internal": 125,
+    "pipe_wall": 1,
+    "pipe_external": 127,
+    "outer_insulation": 5,
+    "insulated_external": 137,
+    "radial_seal_gap": 2.5,
+    "calculated_hole": 142.0,
+    "factory_internal_insulation_nominal_thickness": 9,
+    "approximate_free_air_bore": 107
+  },
+  "slopes": [
+    {
+      "angle_degrees": 3,
+      "outward_drop_mm": 23.583500677368544,
+      "axial_length_mm": 450.61755569906444
+    },
+    {
+      "angle_degrees": 4,
+      "outward_drop_mm": 31.467065374579686,
+      "axial_length_mm": 451.09885413652745
+    },
+    {
+      "angle_degrees": 5,
+      "outward_drop_mm": 39.3698985866658,
+      "axial_length_mm": 451.7189268945063
+    }
+  ],
+  "candidate_room_collar": {
+    "material": "unfaced closed-cell cellular glass; grade to be selected",
+    "status": "planar screening complemented by an approximate axisymmetric model; device and fixings excluded",
+    "insulation_thickness_mm": 100,
+    "plan_size_mm": [
+      400,
+      400
+    ],
+    "lambda_assumed_w_mk": 0.036,
+    "room_surface_resistance_m2k_w": 0.25,
+    "cold_back_face_assumed_c": -20.0,
+    "screening_room_surface_c": 21.28440366972477,
+    "screening_surface_rh_percent": 62.59478470191056
+  },
+  "screening_planar_cold_back_face": {
+    "warning": "Thicknesses below are not specifications for insulation around the sleeve or behind the device.",
+    "cold_back_face_c": -20.0,
+    "insulation_lambda_assumed_w_mk": 0.036,
+    "target_room_facing_surface_c": 19,
+    "required_thickness": [
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm_for_19_c_surface": 30.419999999999998
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm_for_19_c_surface": 58.5
+      }
+    ],
+    "cases": [
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm": 5,
+        "room_facing_surface_c": 3.243801652892561,
+        "calculated_surface_rh_percent": 205.3386895289479
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm": 9,
+        "room_facing_surface_c": 9.605263157894736,
+        "calculated_surface_rh_percent": 132.45353076244865
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm": 19,
+        "room_facing_surface_c": 16.10641891891892,
+        "calculated_surface_rh_percent": 86.5388531601399
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm": 25,
+        "room_facing_surface_c": 17.90431266846361,
+        "calculated_surface_rh_percent": 77.21987127395958
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm": 32,
+        "room_facing_surface_c": 19.25845147219193,
+        "calculated_surface_rh_percent": 70.94332889482645
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.13,
+        "insulation_mm": 60,
+        "room_facing_surface_c": 21.743970315398887,
+        "calculated_surface_rh_percent": 60.85843582936923
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm": 5,
+        "room_facing_surface_c": -3.928571428571427,
+        "calculated_surface_rh_percent": 346.26355059732185
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm": 9,
+        "room_facing_surface_c": 2.5,
+        "calculated_surface_rh_percent": 216.46291144868093
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm": 19,
+        "room_facing_surface_c": 10.535714285714286,
+        "calculated_surface_rh_percent": 124.4575681501114
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm": 25,
+        "room_facing_surface_c": 13.088235294117649,
+        "calculated_surface_rh_percent": 105.16058125862999
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm": 32,
+        "room_facing_surface_c": 15.121951219512194,
+        "calculated_surface_rh_percent": 92.17226663925733
+      },
+      {
+        "room_surface_resistance_m2k_w": 0.25,
+        "insulation_mm": 60,
+        "room_facing_surface_c": 19.130434782608695,
+        "calculated_surface_rh_percent": 71.51148309229058
+      }
+    ]
+  },
+  "airflow": {
+    "nominal_max_m3h": 60,
+    "assumed_reference_density_kg_m3": 1.2,
+    "assumed_cp_j_kg_k": 1005,
+    "room_heating_load_w_approx": 904.5000000000001,
+    "velocity_in_125_mm_bore_m_s": 1.3581221810508401,
+    "velocity_in_107_mm_bore_m_s_approx": 1.8534945479010725
+  },
+  "axisymmetric_screening": {
+    "assumptions": "450 mm wall; 330/120 mm layers; circular insert radius 200 mm, depth 100 mm; channel face fixed at -20 C; Rsi .25, Rse .04; far radius .50 m adiabatic; materials as in solver; no casing, gasket, finish, glue or anchors; 4-degree slope omitted",
+    "cases": {
+      "Без вставки": {
+        "cells": [
+          73,
+          90
+        ],
+        "iterations": 396,
+        "relative_residual": 9.080866708346528e-10,
+        "relative_heat_imbalance": 1.1282750405495112e-09,
+        "room_surface_c_at_radius_mm": {
+          "71": 13.559272772009717,
+          "80": 13.651099129192877,
+          "89.5": 14.86402813891697,
+          "100": 15.928969241956885,
+          "150": 18.60500118295607,
+          "200": 19.640285465526322,
+          "300": 20.37957384765971
+        }
+      },
+      "Вставка: λ = 0,050": {
+        "cells": [
+          73,
+          90
+        ],
+        "iterations": 399,
+        "relative_residual": 9.545108474269508e-10,
+        "relative_heat_imbalance": 7.1085316272311065e-09,
+        "room_surface_c_at_radius_mm": {
+          "71": 13.5402348410743,
+          "80": 16.189278130498618,
+          "89.5": 18.06384456760579,
+          "100": 19.3640108278661,
+          "150": 21.717650924356743,
+          "200": 21.02216078565272,
+          "300": 20.294736438601234
+        }
+      },
+      "Вставка: λ = 0,036": {
+        "cells": [
+          135,
+          180
+        ],
+        "iterations": 785,
+        "relative_residual": 9.813156865010323e-10,
+        "relative_heat_imbalance": 2.2335940808101518e-09,
+        "room_surface_c_at_radius_mm": {
+          "71": 13.504235914971012,
+          "80": 17.189727696753174,
+          "89.5": 19.139524490665888,
+          "100": 20.388843821380156,
+          "150": 22.44886349929859,
+          "200": 21.112547902435757,
+          "300": 20.274631628635255
+        }
+      }
+    }
+  }
+}
